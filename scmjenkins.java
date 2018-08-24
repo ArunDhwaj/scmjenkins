@@ -10,11 +10,18 @@ public class scmjenkins
     {
         System.out.println("Successfully integration of SCM and JENKINS !!!");    
         
-        System.out.println("Print Table of one: Successfully !!!");    
+        System.out.println("Print Table of One: Successfully !!!");    
         System.out.println(":: ");    
         for(int i = 1; i < 11; i++)
         {
             System.out.println(i);
+        }
+        
+		System.out.println("Print Table of Two: Successfully !!!");    
+        System.out.println(":: ");    
+        for(int i = 1; i < 11; i++)
+        {
+            System.out.println(i*2);
         }
     }
 }
