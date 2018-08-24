@@ -23,5 +23,12 @@ public class scmjenkins
         {
             System.out.println(i*2);
         }
+		
+		System.out.println("Print Table of Three: Successfully !!!");    
+        System.out.println(":: ");    
+        for(int i = 1; i < 11; i++)
+        {
+            System.out.println(i*3);
+        }
     }
 }
